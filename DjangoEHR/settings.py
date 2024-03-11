@@ -89,10 +89,10 @@ DATABASES = {
 DATABASES = {
    'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'emad',
+        'NAME': 'postgres',
         'USER': 'emad',
         'PASSWORD': 'eMAD@123',
-       'HOST': 'ehrserver.postgres.database.azure.com',
+        'HOST': 'emad.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
     }
