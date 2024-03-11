@@ -86,17 +86,17 @@ DATABASES = {
     }
 
 # # version2
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.postgresql',
-#        'NAME': 'postgres',
-#        'USER': 'lab3database',
-#        'PASSWORD': 'Mypassword3',
-#       'HOST': 'ehrserver.postgres.database.azure.com',
-#        'PORT': '5432',
-#        'OPTIONS':{'sslmode':'require'},
-#    }
-#}
+DATABASES = {
+   'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'emad',
+        'USER': 'emad',
+        'PASSWORD': 'eMAD@123',
+       'HOST': 'ehrserver.postgres.database.azure.com',
+        'PORT': '5432',
+        'OPTIONS':{'sslmode':'require'},
+    }
+}
 
 
 # Password validation
