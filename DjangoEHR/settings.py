@@ -91,7 +91,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'postgres',
         'USER': 'emad',
-        'PASSWORD': 'eMAD@123',
+        'PASSWORD': 'zMAD@123',
         'HOST': 'emad.postgres.database.azure.com',
         'PORT': '5432',
         'OPTIONS':{'sslmode':'require'},
